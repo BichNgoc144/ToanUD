@@ -1,6 +1,6 @@
 import numpy as np
 import csv
-
+# Nên lam code gon hon 
 # Đặt tên file của bạn vào đây
 FILE_PATH = 'Vidu\\monan.csv' 
 
@@ -95,3 +95,5 @@ max_prob = results[0][0]
 
 print(f"DỰ ĐOÁN CUỐI CÙNG:")
 print(f"Món ăn hôm nay khả thi nhất là **{best_guess}** (Xác suất {max_prob*100:.2f}%).")
+
+print("\n✅ Dự đoán hoàn tất. Chúc bạn có một bữa ăn ngon miệng!")
